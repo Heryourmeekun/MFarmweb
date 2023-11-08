@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+*{
+    scroll-behavior: smooth;
+}
+.cart{
+  position: relative;
+  bottom: 20px;
+}
+
+.second{
+    
+    
+    margin-left: 280px;
+    position: relative;
+    top: 50px;
+    line-height: 30px;
+    background-color: aqua;
+    height: 160px;
+    width: 130px;
+    text-align: center;
+}
+
+.drop:hover{
+    border-radius: 7px;
+    box-shadow: -2px 0 7px rgb(0, 255, 21);
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 209, 255);
+    background-color: rgb(42, 151, 165);
+    width: 100%;
+}
+.menu{
+    display: block;
+}
+.discover1{
+    margin-top: 70px;
+    
+}
+.pic{
+    margin-top: 5px;
+}
+.shop{
+    background-color: rgb(4, 36, 4);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    margin-top: 50px;
+    
+}
+  .discover{
+    font-size: 70px;
+    color: rgb(52, 230, 52);
+    max-width: 20px;
+    font-weight: 600;
+  }  
+  .fresh{
+     font-size: 70px;
+     position: relative;
+     bottom: 20px;
+     color: rgb(2, 32, 2);
+     font-weight: 600;
+  }
+#from{
+    max-width: 400px;
+}
+/* .product{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.coco{
+    height: 170px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 8px;
+}
+/* .forstry{
+    background-color: rgb(4, 36, 4);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    margin-top: 50px;
+} */
+input{
+   margin: 20px;
+   width: 300px;
+   height: 50px;
+   border-radius: 20px;
+   position: relative;
+   top: 10px;
+   padding-left: 10px;
+}
+.girl{
+   
+    bottom: 40px;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer{
+    gap: 200px;
+    padding: 20px;
+}
+#comment{
+    height:100px ;
+}
+.mess{
+position: relative;
+top: 25px;
+color: white;
+font-size: larger;
+}
+.bodyScrollbarToggle {
+    overflow: hidden;
+}
+
+input::placeholder {
+    padding: 10px;
+    /* text-align: center; */
+}
+.marine{
+     height: 120px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 8px; 
+}
+.beaches{
+     height: 80px;
+    width: 350px;
+    border-radius: 30px;
+    margin-left: 8px; 
+}
+.fee{
+     height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: -20px;
+    margin-left: 60px;
+    padding: 10px;
+
+}
+.leave{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.house{
+    margin-left: 50px;
+}
+.truck{
+    margin-top: 30px;
+}
+.jip{
+    margin-top: 40px;
+}
+.mes{
+   position: relative;
+top: 15px; 
+color: white;
+font-size: larger;
+
+}
+
+.drop{
+    line-height: 50px;
+}
+.message{
+    background-color: rgb(6, 97, 6);
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.menu2{
+    display: block;
+}
+.great{
+    line-height: 40px;
+    width: 170px;
+}
+ /* .love:hover .great{
+display: block;
+}  */
